@@ -1,33 +1,39 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.center{
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.pading{
+  padding: 0 80px 0 80px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bg-image {
+  background-image: url('components/images/backroungimage.jpeg'); /* specifică calea către imaginea de fundal */
+  background-size: cover; /* asigură acoperirea completă a containerului cu imaginea */
+  background-position: center; /* poziționează imaginea în centrul containerului */
+  height: 100vh;
+}
+.navbar a{
+  text-decoration: none;
+  color: #454545;
+  font-size: large;
+}
+.navbar a:hover{
+  color: black;
+}
+.map{
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.footer{
+  background-color: #454545;
+  color: white;
 }
+
+.subcol{
+  
+  display:flex;
+  justify-content: center;
+}
+
