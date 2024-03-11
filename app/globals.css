@@ -3,37 +3,55 @@
 }
 
 .pading{
-  padding: 0 80px 0 80px;
+  padding: 0 50px 0 50px;
 }
 
 .bg-image {
   background-image: url('components/images/backroungimage.jpeg'); /* specifică calea către imaginea de fundal */
   background-size: cover; /* asigură acoperirea completă a containerului cu imaginea */
   background-position: center; /* poziționează imaginea în centrul containerului */
-  height: 100vh;
+  height: 100vw;
+  width: auto;
 }
 .navbar a{
   text-decoration: none;
   color: #454545;
-  font-size: large;
+  font-size: 200%;
 }
 .navbar a:hover{
   color: black;
 }
-.map{
-  margin: 0;
-  border: 0;
-  padding: 0;
+.row{
+  display: flex;
+  justify-content: center;
 }
+
 
 .footer{
   background-color: #454545;
   color: white;
+  margin: 0;
 }
 
 .subcol{
   
   display:flex;
   justify-content: center;
+}
+
+
+
+@media (min-width:650px) {
+  div .dropdown{
+    display: none;
+    }
+    
+}
+@media (max-width: 650px) {
+  div .navbar{display: none;
+  }
+  
+  
+  
 }
 

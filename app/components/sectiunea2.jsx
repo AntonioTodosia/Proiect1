@@ -1,3 +1,4 @@
+'use client'
 
 import Image from 'next/image';
 import fisrtsImage from './images/firstpicture.jpeg';
@@ -8,13 +9,16 @@ function Section2(){
     return(
         <div id="section2" className='py-5 center'>
                 <div className='container'>
-                    <div className='row py-5'>
+                    <div className='row py-5 flex'>
                         <div className='col-6'>
                             <Image 
                             src={fisrtsImage} 
                             alt=''
-                            width={359.5} 
-                            height={535} 
+                            sizes="100vw"
+                                // Make the image display full width
+                            style={{
+                                width: '60%',
+                                height: 'auto',}}
                             blurDataURL="data:..." 
                             placeholder="blur" 
                             />
@@ -33,8 +37,11 @@ function Section2(){
                             <Image 
                                 src={secondImage} 
                                 alt=''
-                                width={179.75} 
-                                height={400} 
+                                sizes="100vw"
+                                // Make the image display full width
+                                style={{
+                                width: '60%',
+                                height: 'auto',}}
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
@@ -45,8 +52,11 @@ function Section2(){
                             <Image 
                             src={thirdImage} 
                             alt=''
-                            width={359.5} 
-                            height={535} 
+                            sizes="100vw"
+                                // Make the image display full width
+                            style={{
+                                width: '60%',
+                                height: 'auto',}}
                             blurDataURL="data:..." 
                             placeholder="blur" 
                             />

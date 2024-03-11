@@ -1,3 +1,5 @@
+'use client'
+
 function Section3(){
     return(
         <div id="section3" className='center'>
