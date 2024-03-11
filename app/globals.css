@@ -16,7 +16,7 @@
 .navbar a{
   text-decoration: none;
   color: #454545;
-  font-size: 200%;
+  font-size: 100%;
 }
 .navbar a:hover{
   color: black;
@@ -50,8 +50,16 @@
 @media (max-width: 650px) {
   div .navbar{display: none;
   }
-  
-  
+ 
   
 }
 
+.container .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div .card{
+  margin: 50px 0 50px 0;
+}

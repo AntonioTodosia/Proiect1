@@ -14,6 +14,9 @@ function Section1(){
                                     <a href="#section2" className="center">Despre Mănăstire</a>
                                 </li>
                                 <li className='pading'>
+                                    <a href="#section4" className="center">Foto</a>
+                                </li>
+                                <li className='pading'>
                                     <a href="#section3" className="center">Locație și date de contact</a>
                                 </li>
                                 
@@ -28,6 +31,7 @@ function Section1(){
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="#section1">Manăstirea Nașterea Sfântului Ioan Botezatorul</a></li>
                                     <li><a className="dropdown-item" href="#section2">Despre Mănăstire</a></li>
+                                    <li><a className="dropdown-item" href="#section4">Foto</a></li>
                                     <li><a className="dropdown-item" href="#section3">Locație și date de contact</a></li>
                                 </ul>
                         </div>
