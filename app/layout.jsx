@@ -3,6 +3,7 @@ import "./globals.css";
 import React from "react";
 
 
+
 const basker = Libre_Baskerville({ weight:"400", subsets: ['latin'], });
 
 export const metadata = {
@@ -16,7 +17,6 @@ const RootLayout = ({children}) => {
       <body>
         <div className={basker.className}>{children}</div>
       </body>
-
     </html>
   )
 }

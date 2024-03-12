@@ -16,7 +16,7 @@ function Section4(){
             <h1>Galerie Foto</h1>
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image1} 
                                 alt=''
@@ -28,13 +28,13 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">Drumul spre Mănăstire</h5>
+                            <div className="card-body">
+                                <h5 className="card-title">DRUMUL SPRE MĂNĂSTIRE</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image2} 
                                 alt=''
@@ -46,13 +46,13 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">CIMITIRUL SFINȚILOR DIN MĂNĂSTIREA BUCIUM</h5>
+                            <div className="card-body">
+                                <h5 className="card-title">CIMITIRUL SFINȚILOR DIN MĂNĂSTIREA BUCIUM</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image3} 
                                 alt=''
@@ -64,13 +64,13 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">MORMÂNTUL LUI MOȘ ILIE BURLA </h5>
+                            <div className="card-body">
+                                <h5 className="card-title">MORMÂNTUL LUI MOȘ ILIE BURLA </h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image4} 
                                 alt=''
@@ -82,13 +82,13 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">ÎMPREJURIMI</h5>
+                            <div className="card-body">
+                                <h5 className="card-title">BISERICA</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image5} 
                                 alt=''
@@ -100,13 +100,13 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">ÎMPREJURIMI</h5>
+                            <div className="card-body">
+                                <h5 className="card-title">ÎMPREJURIMI</h5>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
+                        <div className="card h-100">
                             <Image 
                                 src={image6} 
                                 alt=''
@@ -118,47 +118,12 @@ function Section4(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                            <div class="card-body">
-                                <h5 class="card-title">Angela Ionescu</h5>
+                            <div className="card-body">
+                                <h5 className="card-title">ÎMPREJURIMI</h5>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
-                            <Image 
-                                src={image1} 
-                                alt=''
-                                sizes="100vw"
-                                    // Make the image display full width
-                                style={{
-                                    width: '100%',
-                                    height: 'auto',}}
-                                blurDataURL="data:..." 
-                                placeholder="blur" 
-                                />
-                            <div class="card-body">
-                                <h5 class="card-title">Angela Ionescu</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12">
-                        <div class="card h-100">
-                            <Image 
-                                src={image1} 
-                                alt=''
-                                sizes="100vw"
-                                    // Make the image display full width
-                                style={{
-                                    width: '100%',
-                                    height: 'auto',}}
-                                blurDataURL="data:..." 
-                                placeholder="blur" 
-                                />
-                            <div class="card-body">
-                                <h5 class="card-title">Angela Ionescu</h5>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
        </div>

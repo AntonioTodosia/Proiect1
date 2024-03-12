@@ -63,3 +63,16 @@
 div .card{
   margin: 50px 0 50px 0;
 }
+
+.container{
+  max-width: 50%;
+}
+.telefon{
+  font-size: x-large;
+  margin-left: 10px;
+
+}
+.email{
+  font-size: x-large;
+  margin-left: 20px;
+}

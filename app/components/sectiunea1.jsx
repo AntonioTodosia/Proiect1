@@ -8,13 +8,13 @@ function Section1(){
                         <nav className="navbar navbar-expand-sm py-5">
                             <ul className="navbar-nav mx-auto">
                                 <li className='pading'>
-                                    <a className="text-center" href="#section1">Manăstirea Nașterea Sfântului Ioan Botezatorul</a>
+                                    <a className="text-center" href="#section1">Mănăstirea Nașterea Sfântului Ioan Botezatorul</a>
                                 </li>
                                 <li className='pading'>
                                     <a href="#section2" className="center">Despre Mănăstire</a>
                                 </li>
                                 <li className='pading'>
-                                    <a href="#section4" className="center">Foto</a>
+                                    <a href="#section4" className="center">Galerie Foto</a>
                                 </li>
                                 <li className='pading'>
                                     <a href="#section3" className="center">Locație și date de contact</a>
@@ -24,7 +24,7 @@ function Section1(){
                         </nav>
                     </div>
                     <div>
-                        <div className="dropdown">
+                        <div className="dropdown py-3 px-3">
                             <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Meniu
                             </button>

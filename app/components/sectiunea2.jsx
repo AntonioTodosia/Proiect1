@@ -24,7 +24,7 @@ function Section2(){
                             />
                         </div>
                         <div className='col-6'>
-                            <h4 className='py-5'>Crucea DIN SAT HUREZ-JUD. BRAȘOV ( LANGĂ FĂGĂRAȘ) - VINDECĂTOAREA</h4>    
+                            <h4 className='py-5'>CRUCEA DIN SATUL HUREZ, JUDEȚUL BRAȘOV ( LÂNGĂ FĂGĂRAȘ) - VINDECĂTOAREA</h4>    
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, magnam! Sit soluta, consequatur esse earum, similique qui voluptates impedit excepturi facilis aut illum? Ipsa qui error ut ratione et natus.</p>
                         </div>
                     </div>
