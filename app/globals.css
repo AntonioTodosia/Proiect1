@@ -64,8 +64,9 @@ div .card{
   margin: 50px 0 50px 0;
 }
 
-.container{
+.container.contacte{
   max-width: 50%;
+  padding: auto;
 }
 .telefon{
   font-size: x-large;
