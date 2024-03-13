@@ -1,5 +1,6 @@
 import { Libre_Baskerville } from "next/font/google";
 import "./globals.css";
+import 'bootstrap/dist/css/bootstrap.css'
 import React from "react";
 
 

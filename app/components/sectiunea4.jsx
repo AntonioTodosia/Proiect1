@@ -12,7 +12,7 @@ import image6 from './images/imprejurimi2.jpeg';
 function Section4(){
     return(
        <div id='section4'>
-            <div className="container center">
+            <div className="container center py-5">
             <h1>Galerie Foto</h1>
                 <div className="row">
                     <div className="col-lg-3 col-md-6 col-sm-12">
@@ -126,6 +126,7 @@ function Section4(){
                     
                 </div>
             </div>
+            <hr></hr>
        </div>
     )
 }
