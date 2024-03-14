@@ -15,7 +15,7 @@ function Section3(){
             <div className='container1 contacte'>
                 <div className='row py-5'>
                     <div className='col'>
-                    <span><h3>Persoanele interesate de achiziționarea cărții ne pot contacta la urmatoarea adesă de email!</h3></span>
+                    <span><h3>Persoanele interesate de achiziționarea cărții ne pot contacta la urmatoarea adresă de email!</h3></span>
                     <Image 
                                 src={yahoo} 
                                 alt=''
