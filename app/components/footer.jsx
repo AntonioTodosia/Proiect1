@@ -9,7 +9,7 @@ function Footer(){
     }
     
     return (
-        <p className='center py-5 footer'>Copyright  ©  {getYear()} Mănăstirea Nașterea Sfântului Ioan Botezătorul</p>
+        <p className='center py-5 footer'>Copyright  ©  {getYear()} Pacea Lumii</p>
         );
 }
 
