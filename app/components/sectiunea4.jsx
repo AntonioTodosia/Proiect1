@@ -1,12 +1,12 @@
 'use client'
 import Image from 'next/image';
 
-import image1 from './images/drumManastire.jpeg';
-import image2 from './images/cimitirul.jpeg';
-import image3 from './images/mormant.jpeg';
-import image4 from './images/biserica.jpeg';
-import image5 from './images/imprejurimi.jpeg';
-import image6 from './images/imprejurimi2.jpeg';
+import image1 from '../../public/images/drumManastire.jpeg';
+import image2 from '../../public/images/cimitirul.jpeg';
+import image3 from '../../public/images/mormant.jpeg';
+import image4 from '../../public/images/biserica.jpeg';
+import image5 from '../../public/images/imprejurimi.jpeg';
+import image6 from '../../public/images/imprejurimi2.jpeg';
 
 
 function Section4(){

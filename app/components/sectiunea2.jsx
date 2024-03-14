@@ -1,13 +1,13 @@
 'use client'
 
 import Image from 'next/image';
-import fisrtsImage from './images/firstpicture.jpeg';
-import secondImage from './images/secondpicture.jpeg';
-import thirdImage from './images/thirdpicture.jpeg';
+import fisrtsImage from '../../public/images/firstpicture.jpeg';
+import secondImage from '../../public/images/secondpicture.jpeg';
+import carte from '../../public/images/carte.jpeg';
 
 function Section2(){
     return(
-        <div id="section2" className='py-5 center'>
+        <div id="section2" className='center'>
                 <div className='container'>
                     <div className='row py-5'>
                         <div className='col-lg-6 col-md-6 col-sm-12'>
@@ -23,18 +23,18 @@ function Section2(){
                             placeholder="blur" 
                             />
                         </div>
-                        <div className='col-6 col-md-6 col-sm-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12'>
                             <h4 className='py-5'>CRUCEA DIN SATUL HUREZ, JUDEȚUL BRAȘOV ( LÂNGĂ FĂGĂRAȘ) - VINDECĂTOAREA</h4>    
-                            <p>A treia cruce facută de Moș Ilie.</p>
+                            <p>A treia cruce facută de Moș Ilie. Crucea din satul Hurez, județul Brașov, este cunoscută și sub numele de Crucea Vindecătoarea. Această cruce este considerată un loc cu puteri vindecătoare și este vizitată de oameni din toate colțurile țării care caută vindecare pentru diferite afecțiuni.</p>
                         </div>
                     </div>
                     <div className='row py-5' >
 
-                        <div className='col-6 col-md-6 col-sm-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1 order-sm-2 order-2'>
                             <h4 className='py-5'>RACLA SFÂNTULUI IOAN BOTEZĂTORUL</h4>
                             <p>Se spune despre Sfintele moaște (trupul)  Sf. Ioan Botezătorul că se  găsesc în apropierea Mănăstirii Bucium. Trupul se va  așeza singur  în racla construită, în apropierea venirii Mântuitorului pentru cea de a Doua Judecată.</p>
                         </div>
-                        <div className='col-lg-6 col-md-6 col-sm-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-2 order-sm-1 order-1'>
                             <Image 
                                 src={secondImage} 
                                 alt=''
@@ -48,10 +48,10 @@ function Section2(){
                                 />
                         </div>
                     </div>
-                    <div className='row py-5'>
+                    <div className='row '>
                         <div className='col-lg-6 col-md-6 col-sm-12'>
                             <Image 
-                            src={thirdImage} 
+                            src={carte} 
                             alt=''
                             sizes="100vw"
                                 // Make the image display full width
@@ -69,7 +69,7 @@ function Section2(){
                                 Citește mai mult
                             </button>
                         </p>
-                        <div style={{minHeight: "120px;"}}>
+                        <div style={{minHeight: "40px"}}>
                             <div className="collapse collapse-horizontal" id="collapseWidthExample">
                                 <div className="card card-body" style={{width: "auto"}}> 
                                 Proorocul din Hurez, Proorocul românilor, a arătat Dumnezeu cum să fie pregătită cea de a doua Venire a Mântuitorului nostru Iisus Hristos, aici la noi, în grădina Maicii Domnului.

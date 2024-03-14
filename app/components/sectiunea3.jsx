@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
-import yahoo from './images/yahoo.png';
-import whatsapp from './images/whatsapp.png';
+import yahoo from '../../public/images/yahoo.png';
+import whatsapp from '../../public/images/whatsapp.png';
 
 
 function Section3(){
@@ -26,7 +26,7 @@ function Section3(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                    <span className='email'>pacealumii@yahoo.com</span>
+                    <span className='email'><a href='mailto:pacealumii@yahoo.com'>pacealumii@yahoo.com</a></span>
                     </div>
                     <div className='col-lg-6'>
                     <Image 
@@ -40,7 +40,7 @@ function Section3(){
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
-                                <span className='telefon'>0754751011</span>
+                                <span className='telefon'><a href='tel:0754751011'>0754751011</a></span>
 
                     </div>
                 </div>
