@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image';
 import yahoo from '../../public/images/yahoo.png';
-import whatsapp from '../../public/images/whatsapp.png';
+import { IoInformationCircle } from "react-icons/io5";
 
 
 function Section3(){
@@ -14,34 +14,20 @@ function Section3(){
             </div>
             <div className='container1 contacte'>
                 <div className='row py-5'>
-                    <div className='col-lg-6'>
+                    <div className='col'>
+                    <span><h3>Persoanele interesate de achiziționarea cărții ne pot contacta la urmatoarea adesă de email!</h3></span>
                     <Image 
                                 src={yahoo} 
                                 alt=''
                                 sizes="100vw"
                                     // Make the image display full width
                                 style={{
-                                    width: '10%',
+                                    width: '8%',
                                     height: 'auto',}}
                                 blurDataURL="data:..." 
                                 placeholder="blur" 
                                 />
                     <span className='email'><a href='mailto:pacealumii@yahoo.com'>pacealumii@yahoo.com</a></span>
-                    </div>
-                    <div className='col-lg-6'>
-                    <Image 
-                                src={whatsapp} 
-                                alt=''
-                                sizes="100vw"
-                                    // Make the image display full width
-                                style={{
-                                    width: '12%',
-                                    height: 'auto',}}
-                                blurDataURL="data:..." 
-                                placeholder="blur" 
-                                />
-                                <span className='telefon'><a href='tel:0754751011'>0754751011</a></span>
-
                     </div>
                 </div>
             </div>

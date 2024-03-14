@@ -19,7 +19,7 @@ function Section1(){
                                 
                             </ul>
                         </nav>
-                        <h1 className="center">Mănăstirea Nașterea Sfântului Ioan Botezatorul</h1>
+                        <h1 className="center heading">PACEA LUMII</h1>
 
                     </div>
                     <div>
